@@ -1,4 +1,4 @@
-build
+build/*
 !build/macros
 !build/results
 !build/det_reader1.C

@@ -1,0 +1,8 @@
+build
+!build/macros
+!build/results
+!build/det_reader1.C
+!build/det_reader2.C
+!build/det_reader3.C
+!build/det_reader4.C
+!build/rpt_pos.sh

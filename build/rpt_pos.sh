@@ -8,16 +8,16 @@ do
     hadd scoring_f.root  *.root
     root -q det_reader1.C
     mv NaIDetector_D1.dat NaIDetector_D1_pos$i.dat
-    mv NaIDetector_D1_pos$i.dat /G4-e/RPT-posa/results/Array_1
+    mv NaIDetector_D1_pos$i.dat /G4-e/RPT-posa/build/results/Array_1
     root -q det_reader2.C
     mv NaIDetector_D2.dat NaIDetector_D2_pos$i.dat
-    mv NaIDetector_D2_pos$i.dat /G4-e/RPT-posa/results/Array_1
+    mv NaIDetector_D2_pos$i.dat /G4-e/RPT-posa/build/results/Array_1
     root -q det_reader3.C
     mv NaIDetector_D3.dat NaIDetector_D3_pos$i.dat
-    mv NaIDetector_D3_pos$i.dat /G4-e/RPT-posa/results/Array_1
+    mv NaIDetector_D3_pos$i.dat /G4-e/RPT-posa/build/results/Array_1
     root -q det_reader4.C
     mv NaIDetector_D4.dat NaIDetector_D4_pos$i.dat
-    mv NaIDetector_D4_pos$i.dat /G4-e/RPT-posa/results/Array_1
+    mv NaIDetector_D4_pos$i.dat /G4-e/RPT-posa/build/results/Array_1
 
     
     rm *.root
@@ -30,16 +30,16 @@ do
     hadd scoring_f.root  *.root
     root -q det_reader1.C
     mv NaIDetector_D1.dat NaIDetector_D1_pos$i.dat
-    mv NaIDetector_D1_pos$i.dat /G4-e/RPT-posa/results/Array_2
+    mv NaIDetector_D1_pos$i.dat /G4-e/RPT-posa/build/results/Array_2
     root -q det_reader2.C
     mv NaIDetector_D2.dat NaIDetector_D2_pos$i.dat
-    mv NaIDetector_D2_pos$i.dat /G4-e/RPT-posa/results/Array_2
+    mv NaIDetector_D2_pos$i.dat /G4-e/RPT-posa/build/results/Array_2
     root -q det_reader3.C
     mv NaIDetector_D3.dat NaIDetector_D3_pos$i.dat
-    mv NaIDetector_D3_pos$i.dat /G4-e/RPT-posa/results/Array_2
+    mv NaIDetector_D3_pos$i.dat /G4-e/RPT-posa/build/results/Array_2
     root -q det_reader4.C
     mv NaIDetector_D4.dat NaIDetector_D4_pos$i.dat
-    mv NaIDetector_D4_pos$i.dat /G4-e/RPT-posa/results/Array_2
+    mv NaIDetector_D4_pos$i.dat /G4-e/RPT-posa/build/results/Array_2
 
     
 
@@ -52,17 +52,16 @@ do
     hadd scoring_f.root  *.root
     root -q det_reader1.C
     mv NaIDetector_D1.dat NaIDetector_D1_pos$i.dat
-    mv NaIDetector_D1_pos$i.dat /G4-e/RPT-posa/results/Array_3
+    mv NaIDetector_D1_pos$i.dat /G4-e/RPT-posa/build/results/Array_3
     root -q det_reader2.C
     mv NaIDetector_D2.dat NaIDetector_D2_pos$i.dat
-    mv NaIDetector_D2_pos$i.dat /G4-e/RPT-posa/results/Array_3
+    mv NaIDetector_D2_pos$i.dat /G4-e/RPT-posa/build/results/Array_3
     root -q det_reader3.C
     mv NaIDetector_D3.dat NaIDetector_D3_pos$i.dat
-    mv NaIDetector_D3_pos$i.dat /G4-e/RPT-posa/results/Array_3
+    mv NaIDetector_D3_pos$i.dat /G4-e/RPT-posa/build/results/Array_3
     root -q det_reader4.C
-
     mv NaIDetector_D4.dat NaIDetector_D4_pos$i.dat
-    mv NaIDetector_D4_pos$i.dat /G4-e/RPT-posa/results/Array_3
+    mv NaIDetector_D4_pos$i.dat /G4-e/RPT-posa/build/results/Array_3 
 
     
     rm *.root

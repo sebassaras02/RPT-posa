@@ -1,0 +1,11 @@
+/gps/particle gamma 
+/gps/energy 662 keV 
+/gps/ene/type Gauss 
+/gps/ang/type iso 
+/gps/pos/centre -0.1922305537811415 0 0 m
+/NaI/detector1/dimensions -55 0 0 cm 
+/NaI/detector2/dimensions -25 0 -20 cm 
+/NaI/detector3/dimensions 25 0 -20 cm 
+/NaI/detector4/dimensions 55 0 0 cm 
+/run/reinitializeGeometry 
+/run/beamOn 1000000 
